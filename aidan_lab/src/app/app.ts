@@ -55,6 +55,7 @@ export class App {
   // Social Media Links
   githubUrl: string = 'https://github.com/AllinOne000';
   linkedinUrl: string = 'https://www.linkedin.com/in/aidan-labrano-33732a383';
+  resumeUrl: string = 'assets/myresume.pdf';
   
   // Summary
   summary: string = `Current student at Louisiana State University majoring in Computer Science with a concentration in Cybersecurity. 
@@ -127,7 +128,7 @@ industry.`;
     languages: ['TypeScript', 'JavaScript', 'Python', 'Java', 'HTML', 'CSS', 'C#', 'C', 'SQL'],
     frameworks: ['Angular', 'Node.js'],
     operatingsys: ['Kali Linux, Windows'],
-    tools: ['Git', 'VS Code', 'Jira', 'PowerPoint', 'SQL Server Management 21', 'Unity', 'VMWare', 'Discord']
+    tools: ['Git', 'GitHub', 'VS Code', 'Jira', 'PowerPoint', 'SQL Server Management 21', 'Unity', 'VMWare', 'Discord']
   };
   
   // Projects
@@ -135,14 +136,8 @@ industry.`;
     {
       name: 'E-Commerce Platform',
       description: 'A full-stack e-commerce application built with Angular, Node.js, and MongoDB featuring user authentication, product management, and payment integration.',
-      technologies: ['Angular', 'Node.js', 'MongoDB'],
+      technologies: ['Angular', 'Node.js'],
       url: '#'
     },
-    {
-      name: 'Task Management App',
-      description: 'A responsive task management application with drag-and-drop functionality, real-time updates, and team collaboration features.',
-      technologies: ['TypeScript', 'Angular', 'Firebase'],
-      url: '#'
-    }
   ];
 }
