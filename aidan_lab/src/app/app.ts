@@ -134,10 +134,16 @@ industry.`;
   // Projects
   projects: Project[] = [
     {
-      name: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce application built with Angular, Node.js, and MongoDB featuring user authentication, product management, and payment integration.',
-      technologies: ['Angular', 'Node.js'],
-      url: '#'
+      name: 'GYMRAT',
+      description: 'A 2-D beat-em-up style game about a rat that fights to be the strongest in the world. A playable version of the game can be easily accessed at https://hdaren2.itch.io/gymrat',
+      technologies: ['Unity', 'C#'],
+      url: 'https://hdaren2.itch.io/gymrat'
     },
-  ];
+    {
+      name: 'LaCulture',
+      description: 'A website based around the idea of helping people learn more about Louisiana. Helps users with finding out about local events, tours, and recipes from Louisiana that they can explore.',
+      technologies: ['Angular, Node.js'],
+      url: 'https://github.com/LandonW-CSC-LSU/4330_Project_LaCulture'
+    }
+  ]
 }
